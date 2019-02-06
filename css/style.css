@@ -625,7 +625,9 @@ table {
 
 .manager-name {
   color: #425e72;
-  line-height: 65px; }
+  line-height: 65px;
+  margin: 0 !important;
+  filter: invert(0%) !important; }
 
 .dot {
   background-color: #04ae00;
