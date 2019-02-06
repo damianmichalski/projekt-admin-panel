@@ -32,15 +32,3 @@
     cursor: default;
   }
 }
-.btn-color-change {
-  background-color: $button-color;
-  &:hover {
-    background-color: $button-hover-color;
-  }
-}
-.btn-wider {
-  padding: 0 30px;
-}
-.btn-align-right {
-  text-align: right;
-}

@@ -1,20 +1,21 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  position: fixed;
   background-color: #191919;
   height: 100vh;
-  position: fixed;
-  width: 10.6875%;
+  width: 10%;
   a {
     color: #000;
     display: block;
   }
-  img{
+  img {
     display: block;
     filter: invert(60%);
     height: 14px;
-    margin: 12px auto;
     width: 14px;
+    margin: 12px auto;
+
   }
   .sidebar-link {
     border-left: 5px solid #191919;
@@ -33,19 +34,21 @@
   .logo-part {
     height: 60px;
     width: 100%;
-    }
-    p {
-      filter: invert(100%);
-      font-size: 18px;
-      font-weight: 400;
-      margin: 11px 0;
-    }
+  }
+  p {
+    filter: invert(100%);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 11px 0;
+  }
 }
+
 .sidebar-end {
   border-bottom: 1px solid #333;
   height: 40px;
   width: 100%;
 }
+
 .logo {
   img {
     filter: invert(0%);
@@ -54,6 +57,7 @@
     width: 40%;
   }
 }
+
 .hamburger {
   img {
     cursor: pointer;
@@ -63,12 +67,14 @@
     width: 30.3%;
   }
 }
+
 .manager {
   margin: 20px 17px;
   h2 {
     font-size: 14px;
   }
 }
+
 .photo {
   position: relative;
   padding: 0 10px;
@@ -78,12 +84,14 @@
     width: 45px;
   }
 }
+
 .manager-name {
   color: #425e72;
   line-height: 65px;
-  margin:0!important;
-  filter: invert(0%)!important;
+  margin: 0 !important;
+  filter: invert(0%) !important;
 }
+
 .dot {
   background-color: #04ae00;
   border-radius: 50%;

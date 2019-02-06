@@ -2,7 +2,6 @@
 @import "mixins";
 @import "normalize";
 @import "layout";
-@import "components/container";
 @import "components/buttons";
 @import "components/section";
 @import "components/text";
@@ -19,4 +18,11 @@
 body {
   background-color: #F5F5F2;
   font-family: $main-font;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 685px;
 }
