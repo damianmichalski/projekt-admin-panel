@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+@import "normalize";
+@import "layout";
+@import "components/container";
+@import "components/buttons";
+@import "components/section";
+@import "components/text";
+@import "components/table";
+@import "sections/sidebar";
+@import "sections/navbar";
+@import "sections/mobile-menu";
+@import "pages/general";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #F5F5F2;
+  font-family: $main-font;
+}
