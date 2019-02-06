@@ -437,7 +437,7 @@ template {
 .scroll-wrapper {
   width: 100%; }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .section {
     float: left;
     margin: 80px auto 0;
@@ -587,7 +587,7 @@ table {
   width: 8px;
   z-index: 12; }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .sidebar {
     display: none; } }
 .navbar {
@@ -654,7 +654,7 @@ table {
     height: 16px;
     width: 16px; }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .navbar {
     display: none; } }
 .mobile {
@@ -806,7 +806,7 @@ table {
     .mobile-navbar .mobile-exit img {
       filter: invert(60%); }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .mobile {
     display: block; } }
 .date {
