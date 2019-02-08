@@ -383,9 +383,6 @@ template {
 .col-offset-11 {
   margin-left: 91.66%; }
 
-.col-offset-12 {
-  margin-left: 100%; }
-
 .button-align {
   text-align: center; }
 
@@ -409,10 +406,6 @@ template {
     margin: auto 5px; }
   .btn:hover {
     background-color: #FFA200; }
-  .btn:disabled,
-  .btn .btn[disabled] {
-    background-color: #E3E3E3;
-    cursor: default; }
 
 .section {
   width: 87.125%;
@@ -423,10 +416,6 @@ template {
   margin: 80px 20px 20px 10px;
   overflow: hidden;
   padding-bottom: 20px; }
-  .section::before, .section::after {
-    content: "";
-    display: table;
-    clear: both; }
 
 .section-title {
   border-bottom: 1px solid #E3E3E3;
@@ -440,8 +429,7 @@ template {
 @media (max-width: 767px) {
   .section {
     float: left;
-    margin: 80px auto 0;
-    width: 100%; } }
+    width: 95%; } }
 a {
   color: #56819F;
   font-size: 16px;
@@ -505,6 +493,9 @@ table {
 .tbl-row-xl {
   height: 50px; }
 
+@media (max-width: 767px) {
+  .tbl-cell-text {
+    height: 70px; } }
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -594,7 +585,8 @@ table {
   background-color: #FFF;
   border-bottom: 1px solid #E3E3E3;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  justify-content: flex-end; }
   .navbar .notification {
     border-left: 1px solid #E3E3E3;
     position: relative;
@@ -635,7 +627,8 @@ table {
   border-left: 1px solid #E3E3E3;
   padding: 18px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 9%; }
   .profile img {
     filter: invert(60%);
     height: 20px; }
@@ -648,7 +641,8 @@ table {
 .exit {
   border-left: 1px solid #E3E3E3;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 4%; }
   .exit img {
     filter: invert(60%);
     height: 16px;
@@ -818,8 +812,8 @@ table {
 
 .date-line {
   border: 1px solid #E3E3E3;
-  margin: 35px 10px;
-  min-height: 40px; }
+  align-items: center;
+  justify-content: center; }
   .date-line .border {
     border-right: 1px solid #E3E3E3; }
   .date-line p {
@@ -841,6 +835,15 @@ table {
     width: 100%;
     padding: 0 10px; }
 
+@media (max-width: 767px) {
+  .date-line {
+    width: 70%; }
+    .date-line p {
+      font-size: 14px;
+      padding: 5px 5px; }
+
+  .scroll-wrapper img {
+    padding: 10px; } }
 * {
   box-sizing: border-box;
   margin: 0; }

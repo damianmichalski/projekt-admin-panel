@@ -62,3 +62,9 @@ table {
 .tbl-row-xl {
   height: 50px;
 }
+@media (max-width: 767px) {
+  .tbl-cell-text {
+    height: 70px;
+  }
+}
+

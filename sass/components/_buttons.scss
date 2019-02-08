@@ -25,10 +25,4 @@
   &:hover {
     background-color: $button-hover-color;
   }
-
-  &:disabled,
-  .btn[disabled] {
-    background-color: $button-border-color;
-    cursor: default;
-  }
 }

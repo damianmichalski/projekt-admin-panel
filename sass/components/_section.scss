@@ -7,13 +7,6 @@
   margin: 80px 20px 20px 10px;
   overflow: hidden;
   padding-bottom: 20px;
-
-  &::before,
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
 
 .section-title {
@@ -30,7 +23,6 @@
 @media (max-width: 767px) {
   .section {
     float: left;
-    margin: 80px auto 0;
-    width: 100%;
+    width: 95%;
   }
 }
