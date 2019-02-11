@@ -1,11 +1,12 @@
 'use-strict';
 
-function toggleMenu(visible) {
+function toggleMenu() {
   document.querySelector('.mobile-menu')
       .classList
-      .toggle('show', visible);
+      .toggle('show');
 }
 
-document.querySelector('.hamburger').addEventListener('click', function() {
-  toggleMenu();
+document.querySelector('.hamburger')
+    .addEventListener('click', function() {
+      toggleMenu();
 });
