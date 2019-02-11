@@ -7,6 +7,4 @@ function toggleMenu() {
 }
 
 document.querySelector('.hamburger')
-    .addEventListener('click', function() {
-      toggleMenu();
-});
+    .addEventListener('click', toggleMenu);
